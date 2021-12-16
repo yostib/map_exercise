@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<iframe id="mapFrame" src="https://www.google.com/maps?q=yliopistonkatu28Lappeenanta&output=embed"  width="50%" height="300px" frameborder="0"></iframe>  
+
+<div class="search">
+    <h4>Search for a place</h4>
+
+  <tr>
+      <td><label>Street address:</label> </label></td>
+      <td><input class="text-center" type="text" id="street" name="street" placeholder="Type street name"></td>
+  </tr>
+
+  <tr>
+      <td>
+          <label>City:</label>
+          <td><input class="text-center" type="text" id="city" name="city" placeholder="Type city name"></td>
+      </td>
+  </tr>
+  <button type="button" onclick="search()" id="search" class="search" name="search">Search</button>
+</div>
+<script src="./maps.js"></script>
+</body>
+</html>
